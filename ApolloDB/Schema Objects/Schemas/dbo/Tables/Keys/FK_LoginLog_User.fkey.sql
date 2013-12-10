@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[LoginLog]
+    ADD CONSTRAINT [FK_LoginLog_User] FOREIGN KEY ([UserID]) REFERENCES [dbo].[User] ([pkID]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+

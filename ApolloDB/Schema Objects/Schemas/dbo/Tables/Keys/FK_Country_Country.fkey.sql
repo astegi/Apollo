@@ -1,0 +1,3 @@
+﻿ALTER TABLE [dbo].[Country]
+    ADD CONSTRAINT [FK_Country_Country] FOREIGN KEY ([pkID]) REFERENCES [dbo].[Country] ([pkID]) ON DELETE NO ACTION ON UPDATE NO ACTION;
+
